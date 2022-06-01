@@ -1,6 +1,6 @@
   export {};
   describe('test', () => {
-  test('that jest is working', () => {
+  it('that jest is working', () => {
     expect(true).toBe(true)
   })
   })
