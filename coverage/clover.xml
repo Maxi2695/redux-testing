@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1654080705356" clover="3.2.0">
-  <project timestamp="1654080705356" name="All files">
-    <metrics statements="94" coveredstatements="0" conditionals="18" coveredconditionals="0" methods="40" coveredmethods="0" elements="152" coveredelements="0" complexity="0" loc="94" ncloc="94" packages="4" files="10" classes="10"/>
+<coverage generated="1654087356432" clover="3.2.0">
+  <project timestamp="1654087356432" name="All files">
+    <metrics statements="94" coveredstatements="3" conditionals="18" coveredconditionals="0" methods="40" coveredmethods="0" elements="152" coveredelements="3" complexity="0" loc="94" ncloc="94" packages="4" files="10" classes="10"/>
     <package name="src">
       <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="App.tsx" path="/home/maxim/redux-testing/src/App.tsx">
@@ -116,7 +116,7 @@
       </file>
     </package>
     <package name="src.features.products">
-      <metrics statements="14" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <metrics statements="14" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="0"/>
       <file name="Products.tsx" path="/home/maxim/redux-testing/src/features/products/Products.tsx">
         <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
         <line num="9" count="0" type="stmt"/>
@@ -129,13 +129,13 @@
         <line num="32" count="0" type="stmt"/>
       </file>
       <file name="productsSlice.ts" path="/home/maxim/redux-testing/src/features/products/productsSlice.ts">
-        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
+        <metrics statements="6" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
       </file>
     </package>
   </project>
